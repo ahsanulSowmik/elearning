@@ -1,21 +1,25 @@
 import React, { Component, Fragment } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
+import whiteLogo from '../../assest/image/logo_white.png'
+import blackLogo from '../../assest/image/logo_black.png'
 
 export class TopNavigation extends Component {
 
     constructor(){
         super();
         this.state = {
-            navBarTitle: "navTitle"
+            navBarTitle: "navTitle",
+            navBarlogo: [whiteLogo],
+            navBarColor: "navBackground"
         }
     }
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarTitle:'navTitleScrolling'})
+            this.setState({navBarTitle:'navTitleScrolling', navBarlogo: [blackLogo], navBarColor: 'navBackgroundScroll'})
 
         }else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle'})
+            this.setState({navBarTitle:'navTitle', navBarlogo: [whiteLogo],navBarColor: 'navBackground'})
         }
     }
 
@@ -25,9 +29,9 @@ export class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
+                <Navbar className={this.state.navBarColor} collapseOnSelect fixed="top" expand="lg" variant="dark">
                     <Container>
-                    <Navbar.Brand href="#home" className={this.state.navBarTitle}>EASY LEARNING</Navbar.Brand>
+                    <Navbar.Brand href="#home" className={this.state.navBarTitle}> <img src={this.state.navBarlogo} alt=""/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
