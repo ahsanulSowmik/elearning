@@ -10,16 +10,17 @@ export class TopNavigation extends Component {
         this.state = {
             navBarTitle: "navTitle",
             navBarlogo: [whiteLogo],
-            navBarColor: "navBackground"
+            navBarColor: "navBackground",
+            navBarItem: "navItem"
         }
     }
 
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarTitle:'navTitleScrolling', navBarlogo: [blackLogo], navBarColor: 'navBackgroundScroll'})
+            this.setState({navBarTitle:'navTitleScrolling', navBarlogo: [blackLogo], navBarColor: 'navBackgroundScroll',  navBarItem: 'navItemScroll'})
 
         }else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle', navBarlogo: [whiteLogo],navBarColor: 'navBackground'})
+            this.setState({navBarTitle:'navTitle', navBarlogo: [whiteLogo],navBarColor: 'navBackground', navBarItem: 'navItem'})
         }
     }
 
@@ -37,12 +38,12 @@ export class TopNavigation extends Component {
                         <Nav className="me-auto">
                         </Nav>
                         <Nav>
-                        <Nav.Link href="#deets">Home</Nav.Link>
-                        <Nav.Link href="#deets">About</Nav.Link>
-                        <Nav.Link href="#deets">Service</Nav.Link>
-                        <Nav.Link href="#deets">Courses</Nav.Link>
-                        <Nav.Link href="#deets">Portfolio</Nav.Link>
-                        <Nav.Link href="#deets">Contuct Us</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >Home</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >About</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >Service</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >Courses</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >Portfolio</Nav.Link>
+                        <Nav.Link className={this.state.navBarItem} href="#deets" >Contuct Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     </Container>
