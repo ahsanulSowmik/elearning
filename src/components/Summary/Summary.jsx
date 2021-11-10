@@ -20,53 +20,59 @@ class Summary extends Component {
 
                                 <Col lg={8} md={6} sm={12}>
                                     <Row className="countSection">
-                                        <Col>
-                                            <FontAwesomeIcon icon={faGlobe} className="iconProject" />
-                                            <h1 className="countNumber">
-
-                                                35000
-                                            </h1>
-                                            <h4 className="countTitle">Student Worldwide</h4>
-                                            <hr className="bg-white w-35"></hr>
-                                        </Col>
-
-                                        <Col>
-                                            <FontAwesomeIcon icon={faLaptop} className="iconProject" />
-                                            <h1 className="countNumber">22+ </h1>
-                                            <h4 className="countTitle">Course Published</h4>
-                                            <hr className="bg-white w-35"></hr>
-                                        </Col>
-
-                                        <Col>
-                                            <FontAwesomeIcon icon={faStar} className="iconProject" />
-                                            <h1 className="countNumber">3000+ </h1>
-                                            <h4 className="countTitle">Student Reviwed</h4>
-                                            <hr className="bg-white w-35"></hr>
-                                        </Col>
-
-
-                                    </Row>
+                                    <Col>
+                                    <FontAwesomeIcon icon={faGlobe} className="iconProject" />
+                                    <h1 className="countNumber">
+                                    <CountUp end={35000} duration={5}>
+                                    </CountUp>
+                                    </h1>
+                                    <h4 className="countTitle">Student Worldwide</h4>
+                                    <hr className="bg-white w-35"></hr>
                                 </Col>
-                                <Col lg={4} md={6} sm={12}>
-                                    <Card className="workCard">
-                                        <Card.Body>
-                                            <Card.Title>What I have Achieved</Card.Title>
-                                            <Card.Text className="cardTile">
-                                                <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />   Lorem ipsum.</p>
-                                                <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
-                                                <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
-                                                <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
 
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
+                                <Col>
+                                    <FontAwesomeIcon icon={faLaptop} className="iconProject" />
+                                    <h1 className="countNumber">
+                                    <CountUp end={22} duration={5}>
+                                    </CountUp>
+                                    </h1>
+                                    <h4 className="countTitle">Course Published</h4>
+                                    <hr className="bg-white w-35"></hr>
                                 </Col>
+
+                                <Col>
+                                    <FontAwesomeIcon icon={faStar} className="iconProject" />
+                                    <h1 className="countNumber">
+                                    <CountUp end={35000} duration={5}>
+                                    </CountUp>
+                                    </h1>
+                                    <h4 className="countTitle">Student Reviwed</h4>
+                                    <hr className="bg-white w-35"></hr>
+                                </Col>
+
+
                             </Row>
-                        </Container>
-                    </div>
-                </Container>
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <Card className="workCard">
+                                <Card.Body>
+                                    <Card.Title>What I have Achieved</Card.Title>
+                                    <Card.Text className="cardTile">
+                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />   Lorem ipsum.</p>
+                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
+                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
+                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
 
-            </Fragment>
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+                </Container >
+
+            </Fragment >
         )
     }
 }
