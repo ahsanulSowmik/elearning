@@ -75,6 +75,7 @@
     font-family: 'Raleway',sans-serif;
     font-size: 15px;
     font-weight: 400;
+    text-align: left;
 
 }
 
@@ -187,6 +188,7 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 500;
     font-size: 15px;
+    text-align: left;
 }
 
 .workCard{
@@ -219,5 +221,17 @@
     transform: scale(1.03);
     box-shadow: 0 13px 30px -5px;
 
+}
+.courseImg{
+    width: 100%;
+
+}
+.courseViewMore{
+    color: #051b35;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    float: left;
+    text-decoration: none;
 }
 

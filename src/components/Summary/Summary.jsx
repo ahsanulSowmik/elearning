@@ -56,10 +56,10 @@ class Summary extends Component {
                                 <Card.Body>
                                     <Card.Title>What I have Achieved</Card.Title>
                                     <Card.Text className="cardTile">
-                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />   Lorem ipsum.</p>
-                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
-                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
-                                        <p className="cardSubTile text-justify"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
+                                        <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />   Lorem ipsum.</p>
+                                        <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
+                                        <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
+                                        <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
 
                                     </Card.Text>
                                 </Card.Body>
