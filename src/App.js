@@ -1,5 +1,6 @@
 import React from 'react';
 import Analysis from './components/Analysis/Analysis';
+import RecentProject from './components/RecentProject/RecentProject';
 import Services from './components/Services/services';
 import Summary from './components/Summary/Summary';
 import TopBanner from './components/TopBanner/TopBanner';
@@ -12,6 +13,7 @@ function App() {
       <Services/>
       <Analysis/>
       <Summary/>
+      <RecentProject/>
     </div>
   );
 }

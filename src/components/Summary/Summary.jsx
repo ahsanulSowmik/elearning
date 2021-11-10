@@ -6,8 +6,6 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import CountUp from 'react-countup'
-import VisibilitySensor from 'react-visibility-sensor'
-
 class Summary extends Component {
     render() {
         return (

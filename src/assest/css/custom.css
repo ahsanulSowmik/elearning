@@ -47,10 +47,19 @@
 }
 
 .serviceCard{
-    margin: 5px 5px 5px 5px;
-    height: 22rem;
-    padding: 60px 30px 60px 30px;
-    box-shadow: 0 0 8px 0 rgb(4,55,105);
+    background: white;
+    width: 22em;
+    border-radius: 0.6em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+    padding: 5%;
+
+}
+
+.serviceCard:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
 
 }
 .serviceName{
@@ -195,5 +204,20 @@
 .iconProject{
     color: white;
     font-size: 40px;
+}
+
+.projectCard{
+    background: white;
+    width: 22em;
+    border-radius: 0.6em;
+    margin: 1em;
+    cursor: pointer;
+    box-shadow: 0 13px 25px -5px;
+
+}
+.projectCard:hover{
+    transform: scale(1.03);
+    box-shadow: 0 13px 30px -5px;
+
 }
 
