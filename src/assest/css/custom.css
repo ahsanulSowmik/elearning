@@ -131,3 +131,69 @@
     font-weight: 700;
     font-size: 16px;
 }
+
+.summaryFixedBanner{
+    background-image: url("../image/summaryBanner.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.summaryBannerOverlay{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(56, 44, 126, 0.7);
+}
+
+.countNumber{
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.countTitle{
+    font-family: 'Raleway',sans-serif;
+    color: rgb(240, 146, 24);
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.countSection{
+    margin-top: 20% !important;
+}
+
+.cardTile{
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cardSubTile{
+    color: black;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.workCard{
+    margin-top: 25%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+
+}
+
+.iconBullet{
+    color: blue;
+    font-size: 16px;
+}
+
+.iconProject{
+    color: white;
+    font-size: 40px;
+}
+

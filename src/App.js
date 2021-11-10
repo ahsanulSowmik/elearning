@@ -1,6 +1,7 @@
 import React from 'react';
 import Analysis from './components/Analysis/Analysis';
 import Services from './components/Services/services';
+import Summary from './components/Summary/Summary';
 import TopBanner from './components/TopBanner/TopBanner';
 import TopNavigation from './components/TopNavigation/TopNavigation';
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <TopBanner/>
       <Services/>
       <Analysis/>
+      <Summary/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 
 export class Analysis extends Component {
@@ -31,14 +31,10 @@ export class Analysis extends Component {
                         <Col  lg={6} md={12} sm={12}>
                             <ResponsiveContainer>
                                 <BarChart width={100} height={300} data={this.state.data}>
-
                                     <XAxis dataKey="Techonology" />
                                     <Tooltip />
                                     <Bar dataKey="Projects"  fill={blue}>
-
                                     </Bar>
-
-
                                 </BarChart>
                             </ResponsiveContainer>
 
