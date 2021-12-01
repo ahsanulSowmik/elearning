@@ -9,6 +9,7 @@ import TopBanner from './components/TopBanner/TopBanner';
 import TopNavigation from './components/TopNavigation/TopNavigation';
 import Vedios from './components/Vedios/Vedios';
 import ClientReview from './components/ClientReview/ClientReview.jsx';
+import AboutMe from './components/AboutMe/AboutMe';
 function App() {
   return (
     <div>
@@ -22,6 +23,7 @@ function App() {
       <Vedios/>
       <ClientReview/>
       <Services />
+      <AboutMe/>
      
     </div>
   );
