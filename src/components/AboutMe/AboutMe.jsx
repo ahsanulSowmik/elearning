@@ -29,9 +29,6 @@ class AboutMe extends Component {
                         </Col>
 
 
-
-
-
                         <Col lg={6} md={6} sm={12}>
                             <div className="aboutMeBody">
                                 <h2>Hi there, I'm</h2>
