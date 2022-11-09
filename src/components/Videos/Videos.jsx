@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Col, Container, Modal, Row, Button } from 'react-bootstrap'
+import { Col, Container, Modal, Row} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVideoSlash } from '@fortawesome/free-solid-svg-icons'
 import 'video-react/dist/video-react.css'
@@ -22,7 +22,7 @@ export class Vedios extends Component {
         return (
             <Fragment>
                 <Container className="text-center ">
-                    <h1 className="serviceMainTitle">OUR VEDIOS</h1>
+                    <h1 className="serviceMainTitle">Course Name</h1>
                     <div className="bottom"></div>
                     <Row>
                         <Col lg={6} md={6} sm={12} className="videoText">

@@ -62,7 +62,7 @@ class ClientReview extends Component {
 
                             <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" />
+                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" alt=""  />
                                     <h2 className="reviewName">Ahsanul Sowmik</h2>
                                     <p className="reviewDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta magni distinctio, fugiat ipsam voluptate deleniti eos sint animi ea?</p>
 
@@ -73,7 +73,7 @@ class ClientReview extends Component {
 
                             <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" />
+                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" alt="" />
                                     <h2 className="reviewName">Ahsanul Sowmik</h2>
                                     <p className="reviewDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta magni distinctio, fugiat ipsam voluptate deleniti eos sint animi ea?</p>
 
@@ -84,7 +84,7 @@ class ClientReview extends Component {
 
                         <Row className="text-center justify-content-center">
                                 <Col lg={6} md={6} sm={12}>
-                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" />
+                                    <img className="circleImg" src="https://image.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg" alt="" />
                                     <h2 className="reviewName">Ahsanul Sowmik</h2>
                                     <p className="reviewDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta magni distinctio, fugiat ipsam voluptate deleniti eos sint animi ea?</p>
 

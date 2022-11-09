@@ -25,7 +25,7 @@ export class Analysis extends Component {
         return (
             <Fragment>
                 <Container className="text-center">
-                    <h1 className="serviceMainTitle">TECHNOLOGY USED</h1>
+                    <h1 className="serviceMainTitle">Club Activity</h1>
                     <div className="bottom"></div>
                     <Row>
                         <Col  lg={6} md={12} sm={12}>

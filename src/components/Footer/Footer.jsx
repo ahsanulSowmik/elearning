@@ -7,6 +7,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import {Link} from "react-router-dom";
 
 class Footer extends Component {
     render() {
@@ -18,15 +19,15 @@ class Footer extends Component {
                             <h2 className="footerName text-center">Follow Us </h2>
 
                             <div className="social-container">
-                                <a className="facebook social" href="#">
+                                <Link className="facebook social" to="#">
                                     <FontAwesomeIcon icon={faFacebook} size="2x" />
-                                </a>
-                                <a href="#" className="youtube social">
+                                </Link>
+                                <Link to="#" className="youtube social">
                                     <FontAwesomeIcon icon={faYoutube} size="2x" />
-                                </a>
-                                <a href="#" className="twitter social">
+                                </Link>
+                                <Link to="#" className="twitter social">
                                     <FontAwesomeIcon icon={faTwitter} size="2x" />
-                                </a>
+                                </Link>
                             </div>
 
 
@@ -35,32 +36,34 @@ class Footer extends Component {
 
 
                         <Col lg="3" md={6} sm={12} className="p-5 text-justify">
-                            <h2 className="footerName text-center">Address </h2>
+                            <h2 className="footerName ">Address </h2>
                             <p className="footerDescription">
-                                Lorem ipsum dolor sit amet consectetur<br></br>
-                                <FontAwesomeIcon icon={faEnvelope} /> Email : ahsanul@gmail.com<br></br>
-                                <FontAwesomeIcon icon={faPhone} /> Phone : 01791*******<br></br>
+                            Daffodil International University<br></br>
+                                Daffodil Smart City (DSC),<br></br>
+                                    Ashulia, Dhaka-1341<br></br>
+                                <FontAwesomeIcon icon={faEnvelope} /> Email :Support@ele.com<br></br>
+                                <FontAwesomeIcon icon={faPhone} /> Phone : +8802224441833<br></br>
                             </p>
                         </Col>
 
 
                         <Col lg="3" md={6} sm={12} className="p-5 text-justify">
-                            <h2 className="footerName text-center">Information </h2>
-                            <a className="footerLink" href="#">About Me </a> <br></br>
-                            <a className="footerLink" href="#">Company Profile </a> <br></br>
-                            <a className="footerLink" href="#">Contact Us  </a> <br></br>
+                            <h2 className="footerName ">Information </h2>
+                            <Link className="footerLink" to="/about">About Us </Link> <br></br>
+                            <Link className="footerLink" to="#">Useful Link </Link> <br></br>
+                            <Link className="footerLink" to="/contact">Contact Us  </Link> <br></br>
                         </Col>
 
                         <Col lg="3" md={6} sm={12} className="p-5 text-justify">
-                            <h2 className="footerName text-center">Policy  </h2>
-                            <a className="footerLink" href="#">Fefund Policy  </a> <br></br>
-                            <a className="footerLink" href="#">Trems And Condition  </a> <br></br>
-                            <a className="footerLink" href="#">Privaci Policy   </a> <br></br>
+                            <h2 className="footerName ">Policy  </h2>
+                            <Link className="footerLink" to="/refund">Refund Policy  </Link> <br></br>
+                            <Link className="footerLink" to="/terms">Terms And Condition  </Link> <br></br>
+                            <Link className="footerLink" to="/privacy">Privacy Policy </Link> <br></br>
                         </Col>
                     </Row>
                 </Container>
                 <Container fluid={true} className="text-center copyrightSection">
-                    <a className="copyrightlink" href="#">© Copyright 2016 by easy Learning, All Rights Reserved</a>
+                    <Link className="copyrightlink" href="#">© Copyright 2022 by DIU Club Terminal, All Rights Reserved</Link>
                 </Container>
 
 

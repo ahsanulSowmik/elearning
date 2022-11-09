@@ -11,7 +11,7 @@ export class services extends Component {
             <Fragment>
                 <Container className="text-center">
 
-                    <h1 className="serviceMainTitle">MY SERVICES</h1>
+                    <h1 className="serviceMainTitle">OUR SERVICES</h1>
                     <div className="bottom"></div>
                     <Row>
                         <Col lg={4} md={6} sm={12}>

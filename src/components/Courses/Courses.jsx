@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-
+import { Link } from 'react-router-dom'
 export class Courses extends Component {
     render() {
         return (
@@ -17,7 +17,7 @@ export class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="serviceName">Laravel 8</h5>
                                     <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam natus blanditiis assumenda praesentium, exercitationem cum necessitatibus laborum delectus similique.</p>
-                                    <a href="#" className="courseViewMore">View Details</a>
+                                    <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
 
                                 </Col>
 
@@ -27,7 +27,8 @@ export class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="serviceName">Laravel 8</h5>
                                     <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam natus blanditiis assumenda praesentium, exercitationem cum necessitatibus laborum delectus similique.</p>
-                                    <a href="#" className="courseViewMore">View Details</a>
+                                    <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
+
 
                                 </Col>
 
@@ -41,7 +42,7 @@ export class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="serviceName">Laravel 8</h5>
                                     <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam natus blanditiis assumenda praesentium, exercitationem cum necessitatibus laborum delectus similique.</p>
-                                    <a href="#" className="courseViewMore">View Details</a>
+                                    <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
 
                                 </Col>
 
@@ -51,7 +52,8 @@ export class Courses extends Component {
                                 <Col lg={6} md={6} sm={12}>
                                     <h5 className="serviceName">Laravel 8</h5>
                                     <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam natus blanditiis assumenda praesentium, exercitationem cum necessitatibus laborum delectus similique.</p>
-                                    <a href="#" className="courseViewMore">View Details</a>
+                                    <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
+
 
                                 </Col>
                                 

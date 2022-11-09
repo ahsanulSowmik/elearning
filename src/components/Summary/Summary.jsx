@@ -11,7 +11,7 @@ class Summary extends Component {
         return (
             <Fragment>
 
-                <Container fluid={true} className="summaryFixedBanner p-0" >
+                <Container fluid={true} className="summaryFixedBanner p-0 mt-5" >
                     <div className="summaryBannerOverlay">
                         <Container className="text-center">
                             <Row >
@@ -24,14 +24,14 @@ class Summary extends Component {
                                     <CountUp end={35000} duration={5}>
                                     </CountUp>
                                     </h1>
-                                    <h4 className="countTitle">Student Worldwide</h4>
+                                    <h4 className="countTitle">Student Enroll</h4>
                                     <hr className="bg-white w-35"></hr>
                                 </Col>
 
                                 <Col>
                                     <FontAwesomeIcon icon={faLaptop} className="iconProject" />
                                     <h1 className="countNumber">
-                                    <CountUp end={22} duration={5}>
+                                    <CountUp end={22} duration={2}>
                                     </CountUp>
                                     </h1>
                                     <h4 className="countTitle">Course Published</h4>
@@ -41,7 +41,7 @@ class Summary extends Component {
                                 <Col>
                                     <FontAwesomeIcon icon={faStar} className="iconProject" />
                                     <h1 className="countNumber">
-                                    <CountUp end={35000} duration={5}>
+                                    <CountUp end={3000} duration={5}>
                                     </CountUp>
                                     </h1>
                                     <h4 className="countTitle">Student Reviwed</h4>
@@ -54,7 +54,7 @@ class Summary extends Component {
                         <Col lg={4} md={6} sm={12}>
                             <Card className="workCard">
                                 <Card.Body>
-                                    <Card.Title>What I have Achieved</Card.Title>
+                                    <Card.Title>What We have Achieved</Card.Title>
                                     <Card.Text className="cardTile">
                                         <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />   Lorem ipsum.</p>
                                         <p className="cardSubTile"><FontAwesomeIcon icon={faCheckSquare} className="iconBullet" />Lorem ipsum.</p>
