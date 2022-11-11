@@ -31,7 +31,7 @@
     font-size: 18px;
 }
 .mainform{
-    /* margin-top: 5em; */
+    margin-top: 10px;
     display: flex;
   align-items: center;
   justify-content: center;
@@ -440,7 +440,7 @@ a.twitter{
 
 .topFixedPage{
      background-image: url("../image/page.png");
-     min-height: 250px;
+     min-height: 150px;
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
@@ -448,19 +448,19 @@ a.twitter{
 }
 .topPageOverlay{
      position: absolute;
-     min-height: 250px;
+     min-height: 150px;
      width: 100%;
      background: rgba(22, 74, 152, 0.651);
 }
 
 .topContentPage{
-     margin-top: 8em;
+     margin-top: 6em;
 }
 .topPageTitle{
      font-family: 'Montserrat',sans-serif;
-     font-weight: 700;
+     font-weight: 600;
      color: #ffee00;
-     font-size: 40px;
+     font-size: 35px;
 }
 /* //// Home Page Welcome Design  */
 
@@ -675,4 +675,20 @@ a.twitter{
         border-radius: 50%;
         margin-left: 25px;
         width: 100px;
+    }
+
+    /* Registration Middle Page */
+
+
+    .cardbodydesign{
+        background: white;
+        width: 30em;
+        border-radius: 0.6em;
+        margin: 1em;
+        cursor: pointer;
+        box-shadow: 0 13px 25px -5px;
+        padding: 5%;
+    
+
+        
     }

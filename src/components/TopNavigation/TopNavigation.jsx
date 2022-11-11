@@ -52,11 +52,14 @@ export class TopNavigation extends Component {
 
      <Nav.Link>  <NavLink exact activeStyle={{color:'black'}} className={this.state.navBarItem}  to="/club">Club</NavLink> </Nav.Link>
 
-     <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/event">Event</NavLink> </Nav.Link>
+     {/* <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/event">Event</NavLink> </Nav.Link> */}
 
      <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/about">About</NavLink> </Nav.Link>
 
-     {/* <Nav.Link>  <NavLink className={this.state.navBarItem} to="/about">CONTACT US</NavLink> </Nav.Link> */}
+     <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/login">Login</NavLink> </Nav.Link>
+
+    
+
 <Link to="/Registration">
    <Button variant= "primary" >Registration</Button>    
   
