@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-const StudentMiddleinfo = () => {
+const ClubInformation = () => {
   return (
     
       <Card className="cardbodydesign">
@@ -28,4 +28,4 @@ const StudentMiddleinfo = () => {
   );
 };
 
-export default StudentMiddleinfo;
+export default ClubInformation;

@@ -4,12 +4,15 @@ import Image from 'react-bootstrap/esm/Image';
 import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
-import Academic from './Academic';
-import CourseEnroll from './CourseEnroll';
-import MiddleInfo from './MiddleInfo';
+ import Academic from '../StudentProfile/Academic';
+import ClubInformation from './ClubInformation';
+import UploadCourse from './UploadCourse';
 
-const Navs = () => {
+
+
+const TeacherNavs = () => {
     return (
+        
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
       <Row>
         <Col  sm={3}>
@@ -43,10 +46,10 @@ const Navs = () => {
           <Tab.Content>
             <Tab.Pane eventKey="first">
         
-            <MiddleInfo />
+            <ClubInformation />
             </Tab.Pane>
             <Tab.Pane eventKey="second">
-              <CourseEnroll />
+              <UploadCourse />
             </Tab.Pane>
             <Tab.Pane eventKey="academic">
               <Academic/>
@@ -58,4 +61,4 @@ const Navs = () => {
     );
 };
 
-export default Navs;
+export default TeacherNavs;

@@ -15,6 +15,7 @@ import Clubs from '../components/Clubs/Clubs';
 import { Fragment } from 'react';
 import Welcome from '../components/Welcome/Welcome';
 
+
 // import StudentProfileDetails from '../components/StudentProfileDetails/StudentProfileDetails';
 
 
@@ -34,8 +35,6 @@ class HomePage extends Component {
       <Analysis/>
       <Summary/>
       <Services/>
-      
-      {/* <StudentProfileDetails/> */}
       <Footer />
       </Fragment>
       </div>

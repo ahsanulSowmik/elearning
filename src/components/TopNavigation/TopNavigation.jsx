@@ -2,10 +2,12 @@ import React, { Component, Fragment } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap'
 import whiteLogo from '../../assest/image/logo_white.png'
 import blackLogo from '../../assest/image/logo_black.png'
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import '../../assest/css/custom.css';
 import '../../assest/css/bootstrap.min.css';
-import {NavLink,Link} from "react-router-dom"
+import {NavLink,} from "react-router-dom"
+import LoginPopup from '../LoginPopup/LoginPopup';
+import RegMiddlePopup from '../RegMiddlePopup/RegMiddlePopup';
 
 
 export class TopNavigation extends Component {
@@ -56,14 +58,15 @@ export class TopNavigation extends Component {
 
      <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/about">About</NavLink> </Nav.Link>
 
-     <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/login">Login</NavLink> </Nav.Link>
-
+     {/* <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/login">Login</NavLink> </Nav.Link> */}
+            <LoginPopup/>
+            <RegMiddlePopup/>
     
 
-<Link to="/Registration">
+{/* <Link to="/Registration">
    <Button variant= "primary" >Registration</Button>    
   
-   </Link>                 
+   </Link>                  */}
     {/* <Button    variant="primary" href="#Login">Login</Button>  */}
                      
                         </Nav>

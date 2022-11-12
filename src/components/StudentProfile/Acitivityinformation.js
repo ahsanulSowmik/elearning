@@ -5,11 +5,11 @@ import Card from "react-bootstrap/Card";
 const Acitivityinformation = () => {
   return (
     <div>
-      <Card className="mt-3">
+      <Card  className="cardbodydesign mt-3">
         <Card.Text as="h5" className="mt-4">
           Activity Information
         </Card.Text>
-        <Card.Body className="cardbodydesign">
+        <Card.Body >
           <div>
             <Row>
               <Col xs={6} style={{ borderRight: "3px solid blue" }}>

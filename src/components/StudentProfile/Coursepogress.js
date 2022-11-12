@@ -11,7 +11,7 @@ const Coursepogress = () => {
   ];
   return (
    
-      <Card style={{ width: "18rem" ,marginTop:'30px' }}>
+      <Card className="courseProgress">
       <Card.Title className="coursepogressdesign">Course Pogress</Card.Title>
 
         <Card.Body>

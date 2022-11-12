@@ -14,6 +14,7 @@ import ContactPage from '../pages/ContactPage';
 import ClubDetailsPage from '../pages/ClubDetailsPage';
 import StudentDetailsPage from '../pages/StudentDetailsPage';
 import RegMiddlePage from '../pages/RegMiddlePage';
+import AuthorityProfile from '../pages/AuthorityProfile';
 
 
 class AppRouter extends Component {
@@ -36,8 +37,8 @@ class AppRouter extends Component {
           <Route  path="/clubdetails" element={<ClubDetailsPage/>} />
           <Route path='/profile' element={<StudentDetailsPage/>}/>
           <Route path='/regMiddle' element={<RegMiddlePage/>}/>
-
-
+          <Route path='/authorityprofile' element={<AuthorityProfile/>}/>
+     
         </Routes>
 
                </Fragment>
