@@ -19,16 +19,19 @@ import { Player, BigPlayButton } from 'video-react'
                    <Container className="mt-5">
                        <Row>
                             <Col lg={8} md={6} sm={12}>
-                            <h1 className="coruseDetailsText"> Aenean sed nibh a magna posuere tempo faucib </h1>
+                            <h1 className="coruseDetailsText"> English for Communication </h1>
     <img className="courseDetailsImg" src="https://solverwp.com/demo/html/edumint/assets/img/course/9.png" alt="" />
     <br></br> <br></br>
     <p className="CoruseAllDescription">
-    The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps.
-     Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
-      Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.  <br></br> <br></br>
-    Charged fop blew my junk TV quiz. How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs!
-     "Now fax quiz Jack!" my brave ghost pled. Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq.  <br></br> <br></br>Cozy sphinx waves quart jug of bad milk.
-      A very bad quack might jinx zippy fowls. Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump.
+    English is spoken by around 360 million people around the world and taught in over 118 countries,
+     making it an incredibly useful language to learn. English language learning will allow you to 
+     communicate effectively with people from all over the world, 
+    making travelling a lot easier and helping you to learn more about different cultures.<br></br><br></br>
+    The importance of English language can be seen in almost every aspect of our lives. 
+    This is especially true in the business world where English is the most common language used and 
+    most employers will therefore expect a certain level of English proficiency during the hiring process. 
+    Investing in a quality English language course will enhance your employment prospects significantly.
+
     </p>
                             </Col>
 
@@ -37,21 +40,21 @@ import { Player, BigPlayButton } from 'video-react'
 <h4 className="widget-title text-center">Course Features</h4>
 <hr />
 <ul>
-<li><FontAwesomeIcon className="iconBullent" icon={faUser} /> <span> Enrolled :</span> 1200 students</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faUser} /> <span> Enrolled :</span> 600 students</li>
 
 <li><FontAwesomeIcon className="iconBullent" icon={faClock} /> <span>Duration :</span> 2 hours</li>
 
 <li><FontAwesomeIcon className="iconBullent" icon={faClipboard} /> <span>Lectures :</span> 8</li>
 
-<li><FontAwesomeIcon className="iconBullent" icon={faClone} /> <span>Categories:</span> Technology</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faClone} /> <span>Categories:</span> Language</li>
 
-<li><FontAwesomeIcon className="iconBullent" icon={faTags} /> <span>Tags:</span> Android, JavaScript</li>
+<li><FontAwesomeIcon className="iconBullent" icon={faTags} /> <span>Tags:</span> Language,Communication</li>
 
 <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> <span>Instructor:</span>Samia Ferdose</li>
 
 </ul>
 <div className="price-wrap text-center">
-<h5>Price:<span>$54.00</span></h5>
+<h5>Price:<span>3000/-</span></h5>
 <Button variant="warning">ENROLL COURSE</Button>
 
 </div>
@@ -68,17 +71,14 @@ import { Player, BigPlayButton } from 'video-react'
                          <Col lg={6} md={6} sm={12}>
 
          <div className="widget_feature">
-      <h1 className="coruseDetailsText"> Skill You Need  </h1>   
+      <h1 className="coruseDetailsText"> Special Features:</h1>   
       <hr />
       <ul>
-           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Metus interdum metus</li>
-           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Ligula cur maecenas</li>
+           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Techniques of fluent speaking and formats of subject<br></br> wise writing will develop your both skills.</li>
+           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Learning by sharing will be a great experience for<br></br> you with our language club arrangements.</li>
 
-           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Metus interdum metus</li>
+           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Participants will enjoy opportunities to join different<br></br> language related seminars, workshops etc.</li>
 
-           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} />Ligula cur maecenass</li>
-
-           <li><FontAwesomeIcon className="iconBullent" icon={faCheckSquare} /> Metus interdum metus</li>
 
            </ul>           
              </div>

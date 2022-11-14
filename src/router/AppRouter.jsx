@@ -4,7 +4,7 @@ import AboutPage from '../pages/AboutPage';
 import AllClubPage from '../pages/AllClubPage';
 import  { RegistrationPage } from '../pages/RegistrationPage';
 import HomePage from '../pages/HomePage';
-import Login from '../pages/Login';
+import LoginPopup from '../components/LoginPopup/LoginPopup';
 import AllCorusePage from '../pages/AllCoursePage';
 import RefundPage from '../pages/RefundPage';
 import TermsPage from '../pages/TermsPage';
@@ -26,7 +26,7 @@ class AppRouter extends Component {
 <Route path="/" element={<HomePage/>} />
 <Route path="/club" element={<AllClubPage/>} />
           <Route path="/course" element={<AllCorusePage/>}/>
-          <Route  path="/login" element={<Login/>} />
+          <Route  path="/login" element={<LoginPopup/>} />
           <Route  path="/about" element={<AboutPage/>} />
           <Route  path="/registration" element={<RegistrationPage/>} /> 
           <Route  path="/refund" element={<RefundPage/>} /> 

@@ -6,7 +6,7 @@ import blackLogo from '../../assest/image/logo_black.png'
 import '../../assest/css/custom.css';
 import '../../assest/css/bootstrap.min.css';
 import {NavLink,} from "react-router-dom"
-import LoginPopup from '../LoginPopup/LoginPopup';
+ import LoginPopup from '../LoginPopup/LoginPopup';
 import RegMiddlePopup from '../RegMiddlePopup/RegMiddlePopup';
 
 

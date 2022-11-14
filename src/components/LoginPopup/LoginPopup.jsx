@@ -13,7 +13,7 @@ function LoginPopup() {
 
   return (
     <>
-    <NavLink className="navBarItem" onClick={handleShow} >Login
+    <NavLink style={{color:'blue'}} onClick={handleShow} >Login
     </NavLink>
       {/* <Button variant="primary" onClick={handleShow}>
         Login

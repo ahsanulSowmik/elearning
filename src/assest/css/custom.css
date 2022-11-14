@@ -649,24 +649,34 @@ a.twitter{
        
     }
     .dropzones{
+        margin-top: 25px;   
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 800px; 
-        height: 400px;
-        border: 5px dashed rgb(117, 112, 112);
+        width: 500px; 
+        height: 150px;
+        border: 5px dashed rgb(213, 229, 253);
         padding: 3rem;
     }
     .dragbutton{
-        padding: 1rem;
+        padding: 5px;
         margin: 1rem;
-        font-size: medium;
+        font-size: 15px;
+        background-color: #4a82d7;
+        border-color: #cbd6e2;
+        color: white;
     }
+
     
     .course{
-        margin-top: 110px;
+        margin-top: 50px;
         
+    }
+    .dragText{
+        color: #b5d0ec;
+        font-family: sans-serif;
+        font-size: 15px;
     }
 
     /* stident profile details */
@@ -717,4 +727,30 @@ a.twitter{
     cursor: pointer;
     box-shadow: 0 13px 25px -5px;
     padding: 5%;
+}
+
+
+/* upload course */
+
+.formdesign{
+    margin-top: 30px;
+    width: 50rem;
+    border-color: #4a82d7;
+    
+
+}
+.textdesign{
+    color: #3178e3;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 15px;
+
+}
+.coursetitel{
+    color: #84a6da; 
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.col_design{
+    background-color: #002c61;
 }
