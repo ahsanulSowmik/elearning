@@ -19,8 +19,9 @@ class AllCourses extends Component {
            </Col>
 
            <Col lg={6} md={6} sm={12}>
-                <h5 className="text-justify serviceName">Laravel 8  </h5>
-                <p className="text-justify serviceDescription">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <h5 className="serviceName">English for Communication</h5>
+                                    <p className="text-justify serviceDiscription">English language learning will allow you to communicate effectively with people from all over the world..
+                                    </p>
                 <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
            </Col>
 

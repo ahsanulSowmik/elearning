@@ -15,8 +15,9 @@ export class Courses extends Component {
                                     <img className="courseImg" src="https://image.freepik.com/free-photo/learner-lesson_1098-14155.jpg" alt="" />
                                 </Col>
                                 <Col lg={6} md={6} sm={12}>
-                                    <h5 className="serviceName">Laravel 8</h5>
-                                    <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam natus blanditiis assumenda praesentium, exercitationem cum necessitatibus laborum delectus similique.</p>
+                                    <h5 className="serviceName">English for Communication</h5>
+                                    <p className="text-justify serviceDiscription">English language learning will allow you to communicate effectively with people from all over the world..
+                                    Enroll this course for your better communication.</p>
                                     <Link className="courseViewMore float-left" to="/coursedetails" >View Details</Link>
 
                                 </Col>

@@ -86,10 +86,10 @@ class Allclubs extends Component {
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="./image/club5.png" />
                                 <Card.Body>
-                                    <Card.Title className="serviceName">DIU Robotics Club</Card.Title>
+                                    <Card.Title className="serviceName">All Stars Daffodil</Card.Title>
                                     <Card.Text className="serviceDiscription">
-                                    DIU Robotics Club is the most primitive and extensive club as well as the biggest club in Daffodil International University. 
-                                    Working together with a dream to improve.
+                                    All Stars Daffodil is a drama organization. It is the only theater club at Daffodil International University. Those who practice pure Bengali culture have already gained 
+                                    
                                     </Card.Text>
                                     <Link to="/clubdetails">
                                     <Button variant="primary">Visit Website</Button>
@@ -103,10 +103,10 @@ class Allclubs extends Component {
                             <Card className="projectCard">
                                 <Card.Img variant="top" src="./image/club6.png" />
                                 <Card.Body>
-                                    <Card.Title className="serviceName">DIU Photographic Society</Card.Title>
+                                    <Card.Title className="serviceName">Daffodil Prothom Alo Bondhushava</Card.Title>
                                     <Card.Text className="serviceDiscription">
-                                    Daffodil International University Photographic Society (DIUPS) was founded in 2011 
-                                    by few dedicated students of Daffodil International University's experienced
+                                    Daffodil Prothom Alo Bondhushava is one of the finest central clubs of Daffodil International University.
+                                     It is the social, 
                                     </Card.Text>
                                     <Link to="/clubdetails">
                                     <Button variant="primary">Visit Website</Button>

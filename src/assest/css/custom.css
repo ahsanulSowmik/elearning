@@ -1,5 +1,5 @@
 .topFixedBanner{
-    background-image: url("../image/banner.jpg");
+    background-image: url("../image/newground20.png");
     min-height: 550px;
     background-attachment: fixed;
     background-position: center;
@@ -516,6 +516,7 @@ a.twitter{
 }
 .bg-base {
     background: #f8e623;
+
 }
 .sideImg{
      margin-top: -15px;
@@ -753,4 +754,31 @@ a.twitter{
 }
 .col_design{
     background-color: #002c61;
+}
+
+/* payment design */
+.payment_titel{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+    color: #5c9af8;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 700;
+
+}
+.pay_form{
+    margin: 18px;
+    background-color: #e9eef3;
+    height: 300px;
+
+}
+.paybtn1{
+    margin-left: 65px;
+}
+.radiodsgn{
+    margin-top: 20px;
+    width: 250px;
+}
+.pay-col2{
+    background-color: #f0f4f8;
 }

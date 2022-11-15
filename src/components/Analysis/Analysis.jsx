@@ -10,12 +10,12 @@ export class Analysis extends Component {
         super();
         this.state = {
             data: [
-                { Techonology: 'php', Projects: 100 },
-                { Techonology: 'javascript', Projects: 80 },
-                { Techonology: 'mySQL', Projects: 60 },
-                { Techonology: 'Android', Projects: 90 },
-                { Techonology: 'Laravel', Projects: 80 },
-                { Techonology: 'IOS', Projects: 95 },
+                { Techonology: 'DIU CPC', Activity: 100 },
+                { Techonology: 'DIU RC', Activity: 80 },
+                { Techonology: 'DIU PS', Activity: 60 },
+                { Techonology: 'All star daffodil', Activity: 90 },
+                { Techonology: 'DIUBEC', Activity: 80 },
+                { Techonology: 'DIU VSC',Activity: 95 },
             ]
         }
     }
@@ -33,14 +33,17 @@ export class Analysis extends Component {
                                 <BarChart width={100} height={300} data={this.state.data}>
                                     <XAxis dataKey="Techonology" />
                                     <Tooltip />
-                                    <Bar dataKey="Projects"  fill={blue}>
+                                    <Bar dataKey="Activity"  fill={blue}>
                                     </Bar>
                                 </BarChart>
                             </ResponsiveContainer>
 
                         </Col>
                         <Col lg={6} md={12} sm={12}>
-                            <p className="text-justify serviceDiscription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsam non harum quod ad libero, sit hic fugit adipisci ea. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, dolor modi quisquam quam minima impedit architecto expedita eius harum, consectetur dolorum, sint tempore cupiditate enim ex? Nemo, aut accusamus nobis quis vitae omnis vel eum veritatis commodi quos eius?<br></br> <br></br> Hic dicta ut ullam explicabo ex sint eligendi saepe, harum numquam, voluptatem, nisi quis vitae cum.Neque rerum vel numquam! Sunt ipsam est iusto laudantium consectetur atque corrupti nihil, repellendus nemo blanditiis magnam quis cum minima nisi accusantium necessitatibus? Debitis, soluta iste? Fuga assumenda ipsam voluptas obcaecati ullam aliquam, qui, placeat sunt enim neque quos, nostrum sed repellendus at itaque! Distinctio excepturi quaerat harum voluptate nisi corporis, ea minus rerum officia atque quasi iusto.Voluptatem, quas assumenda vel architecto commodi at eos dolorum non vero accusamus cumque ipsam voluptatibus tenetur amet qui recusandae explicabo facere ab distinctio fugit possimus accusantium consequuntur? Suscipit earum nisi inventore delectus. Est dolorum voluptatibus non tempore corrupti error quasi magnam illum obcaecati cumque nobis ipsam, eaque laboriosam officiis dolores hic excepturi nisi! Nesciunt ea id ad dolores harum illo?</p>
+                            <p className="text-justify serviceDiscription">Daffodil International University has a good number of clubs, providing opportunities for students to perform extra-curricular activities, which help them to exercise their talents beyond classroom boundary and develop leadership and collaboration skills. Every club is supervised by a Moderator (teacher), who engages students in various programs on a regular basis, training them in discipline, teamwork and event management.<br></br><br></br>
+                            Each club is run by an executive committee that makes decisions on all club functions. The duration of a club committee is usually one year, after which a new committee is formed. Any student of DIU willing to join a club should contact the concerned club officials, fill up a form and get registered.
+
+The club activities are regulated, monitored and assessed by a higher body in the university and top activists/performers are recognized and rewarded</p>
                         </Col>
 
                     </Row>

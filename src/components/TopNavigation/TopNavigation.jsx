@@ -6,8 +6,8 @@ import blackLogo from '../../assest/image/logo_black.png'
 import '../../assest/css/custom.css';
 import '../../assest/css/bootstrap.min.css';
 import {NavLink,} from "react-router-dom"
- import LoginPopup from '../LoginPopup/LoginPopup';
-import RegMiddlePopup from '../RegMiddlePopup/RegMiddlePopup';
+//  import LoginPopup from '../LoginPopup/LoginPopup';
+ import RegMiddlePopup from '../RegMiddlePopup/RegMiddlePopup';
 
 
 export class TopNavigation extends Component {
@@ -58,8 +58,8 @@ export class TopNavigation extends Component {
 
      <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/about">About</NavLink> </Nav.Link>
 
-     {/* <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/login">Login</NavLink> </Nav.Link> */}
-            <LoginPopup/>
+     <Nav.Link>  <NavLink exact activeStyle={{color:'#ffd900'}} className={this.state.navBarItem} to="/login">Login</NavLink> </Nav.Link>
+            {/* <LoginPopup/> */}
             <RegMiddlePopup/>
     
 

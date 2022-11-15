@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export class TopBanner extends Component {
     render() {
@@ -17,7 +18,8 @@ export class TopBanner extends Component {
                                  <p className="topSubtitle">Providing opportunities for students to perform extra-curricular activities,<br></br> 
                                  which help them to exercise their talents beyond classroom boundary <br></br>
                                  and develop leadership and collaboration skills.</p>
-                                 <Button variant="primary">Learn More</Button>
+                                 <Link to='/about'>
+                                 <Button variant="primary">Learn More</Button></Link>
                               </Col>
                           </Row>
                       </Container>

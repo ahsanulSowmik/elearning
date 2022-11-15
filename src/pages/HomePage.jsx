@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import Analysis from '../components/Analysis/Analysis';
 import Courses from '../components/Courses/Courses';
 //import RecentProject from './components/RecentProject/RecentProject';
-import Services from '../components/Services/services';
+//import Services from '../components/Services/services';
 import Summary from '../components/Summary/Summary';
 import TopBanner from '../components/TopBanner/TopBanner';
 import TopNavigation from '../components/TopNavigation/TopNavigation';
@@ -34,7 +34,6 @@ class HomePage extends Component {
       <Courses/>
       <Analysis/>
       <Summary/>
-      <Services/>
       <Footer />
       </Fragment>
       </div>

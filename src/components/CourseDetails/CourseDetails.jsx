@@ -9,6 +9,7 @@ import {faClone} from '@fortawesome/free-solid-svg-icons'
 import {faTags} from '@fortawesome/free-solid-svg-icons'
 import 'video-react/dist/video-react.css'
 import { Player, BigPlayButton } from 'video-react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -55,7 +56,9 @@ import { Player, BigPlayButton } from 'video-react'
 </ul>
 <div className="price-wrap text-center">
 <h5>Price:<span>3000/-</span></h5>
+<Link to='/payment'>
 <Button variant="warning">ENROLL COURSE</Button>
+</Link>
 
 </div>
 </div> 

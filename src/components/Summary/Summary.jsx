@@ -21,7 +21,7 @@ class Summary extends Component {
                                     <Col>
                                     <FontAwesomeIcon icon={faGlobe} className="iconProject" />
                                     <h1 className="countNumber">
-                                    <CountUp end={35000} duration={5}>
+                                    <CountUp end={3500} duration={5}>
                                     </CountUp>
                                     </h1>
                                     <h4 className="countTitle">Student Enroll</h4>
@@ -31,7 +31,7 @@ class Summary extends Component {
                                 <Col>
                                     <FontAwesomeIcon icon={faLaptop} className="iconProject" />
                                     <h1 className="countNumber">
-                                    <CountUp end={22} duration={2}>
+                                    <CountUp end={18} duration={2}>
                                     </CountUp>
                                     </h1>
                                     <h4 className="countTitle">Course Published</h4>
@@ -41,7 +41,7 @@ class Summary extends Component {
                                 <Col>
                                     <FontAwesomeIcon icon={faStar} className="iconProject" />
                                     <h1 className="countNumber">
-                                    <CountUp end={3000} duration={5}>
+                                    <CountUp end={1800} duration={5}>
                                     </CountUp>
                                     </h1>
                                     <h4 className="countTitle">Student Reviwed</h4>

@@ -28,7 +28,7 @@ function RegMiddlePopup() {
           </Button>
             </Link>
 
-            <Link to='/registration'>
+            <Link to='/clubregistrationn'>
             <Button variant="primary" className='student_btn'>
             Club Authority
           </Button>
